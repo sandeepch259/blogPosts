@@ -1,0 +1,105 @@
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header,
+main {
+  width: 100%;
+  max-width: 1000px;
+}
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  max-width: 1000px;
+  color: white;
+  height: 30px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 2px #a39081;
+  background: #efd9b4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#posts {
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px 10px 10px;
+  max-width: 1000px;
+  box-sizing: border-box;
+  background: #d6a692;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+form label {
+  font-weight: 700;
+}
+
+form textarea {
+  height: 50px;
+}
+
+form input {
+  height: 30px;
+}
+
+form input,
+form textarea {
+  background-color: #a39081;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4d6160;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  align-self: center;
+}
+
+button:hover,
+button:focus {
+  background: #efd9b4;
+  color: #a39081;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 200;
+}

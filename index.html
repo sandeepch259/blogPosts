@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <h3>BlogSpace</h3>
+      </nav>
+    </header>
+    <main>
+      <form id = 'form'>
+        <label for="blog-title">Title:</label>
+        <input type="text" id="blog-title" />
+        <label for="blog-body">Body:</label>
+        <textarea type="text" id="blog-body"></textarea>
+        <button id = 'post-btn' type="submit" >POST</button>
+      </form>
+      <div id="posts"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
